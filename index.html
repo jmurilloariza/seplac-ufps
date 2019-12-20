@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SEPLAC</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="assets/fonts/Material_Icons.css" rel="stylesheet" />
+    <style type="text/css">
+      .global-loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1999;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      .global-loader-fade-in {
+        opacity: 0;
+      }
+
+      .global-loader-hidden {
+        display: none;
+      }
+
+      .global-loader h1 {
+        font-family: 'Helvetica Neue', Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        letter-spacing: 0.04rem;
+        white-space: pre;
+
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: repeating-linear-gradient(
+          to right,
+          #f44336,
+          #9c27b0,
+          #3f51b5,
+          #03a9f4,
+          #009688,
+          #8bc34a,
+          #ffeb3b,
+          #ff9800
+        );
+        background-size: 750% auto;
+        background-position: 0 100%;
+        animation: gradient 20s infinite;
+        animation-fill-mode: forwards;
+        animation-timing-function: linear;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 0 0;
+        }
+
+        100% {
+          background-position: -750% 0;
+        }
+      }
+    </style>
+  <link rel="stylesheet" href="styles.f9562d33de0cb331b63a.css"></head>
+  <body>
+    <app-root></app-root>
+    <div id="globalLoader" class="global-loader"><h1>CARGANDO</h1></div>
+  <script src="runtime-es2015.3b45e776ac2f5b7e715c.js" type="module"></script><script src="runtime-es5.3b45e776ac2f5b7e715c.js" nomodule defer></script><script src="polyfills-es5.189f07b44baee2ffc7a6.js" nomodule defer></script><script src="polyfills-es2015.db02a77d82edc4cfe715.js" type="module"></script><script src="scripts.6cd5e093c44e28d3f7dc.js" defer></script><script src="main-es2015.f7fa0f15b63850fed03e.js" type="module"></script><script src="main-es5.f7fa0f15b63850fed03e.js" nomodule defer></script></body>
+</html>

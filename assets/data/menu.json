@@ -1,0 +1,116 @@
+{
+  "menu": [
+    {
+      "state": "administrativos",
+      "name": "Administrativos",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "recent_actors",
+      "repetir": "no"
+    },
+    {
+      "state": "director-programa",
+      "name": "Director de programa",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "school",
+      "repetir": "no"
+    },
+    {
+      "state": "docentes",
+      "name": "Docentes",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "school",
+      "repetir": "no"
+    },
+    {
+      "state": "ejes_estrategicos",
+      "name": "Ejes estratégicos",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "navigation",
+      "repetir": "no"
+    },
+    {
+      "state": "lineas",
+      "name": "Líneas estratégicas",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "shuffle",
+      "repetir": "no"
+    },
+    {
+      "state": "programas",
+      "name": "Programas",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "work",
+      "repetir": "no"
+    },
+    {
+      "state": "facultad",
+      "name": "Facultades",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "location_city",
+      "repetir": "no"
+    },
+    {
+      "state": "departamento",
+      "name": "Departamentos",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "business",
+      "repetir": "no"
+    },
+    {
+      "state": "programaAcademico",
+      "name": "Programa académico",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "work",
+      "repetir": "no"
+    },
+    {
+      "state": "planes",
+      "name": "Planes de acción",
+      "type": "link",
+      "usuario": "director",
+      "icon": "library_books",
+      "repetir": "no"
+    },
+    {
+      "state": "seguimiento",
+      "name": "Actividades",
+      "type": "link",
+      "usuario": "docente",
+      "icon": "reorder",
+      "repetir": "no"
+    },
+    {
+      "state": "proyectos",
+      "name": "Proyectos",
+      "type": "link",
+      "usuario": "director_docente",
+      "icon": "assessment",
+      "repetir": "no"
+    },
+    {
+      "state": "recursos",
+      "name": "Recursos",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "group_work",
+      "repetir": "no"
+    },
+    {
+      "state": "indicadores",
+      "name": "indicador",
+      "type": "link",
+      "usuario": "administrador",
+      "icon": "stars",
+      "repetir": "no"
+    }
+  ]
+}
